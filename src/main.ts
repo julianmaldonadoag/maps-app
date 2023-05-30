@@ -5,7 +5,7 @@ import store from './store'
 
 import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
  
-mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWFubWRvIiwiYSI6ImNsaTY4bno0azB5cDgzY256ZnhjOHBpMjUifQ.zJRcymOVOccMJybAdxLyjw';
+mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_TOKEN;
 
 if (!navigator.geolocation) {
   alert('Geolocation is not supported by your browser');
