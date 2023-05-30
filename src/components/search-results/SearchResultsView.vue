@@ -43,5 +43,6 @@ h5 {
 
 p {
   font-size: 10px !important;
+  margin-bottom: 10px;
 }
 </style>

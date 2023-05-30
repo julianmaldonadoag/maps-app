@@ -28,8 +28,8 @@ export default defineComponent({
 .trip-container {
   padding: 10px;
   position: fixed;
-  bottom: 50px;
-  left: 20px;
+  bottom: 30px;
+  right: 30px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);

@@ -1,6 +1,5 @@
 <template>
   <router-view/>
-  <img src="./assets/logo.png" alt="Vue logo" class="logo">
 </template>
 
 <style>
@@ -22,12 +21,5 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
-}
-
-.logo {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 100px;
 }
 </style>
